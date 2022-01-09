@@ -15,7 +15,6 @@
 	<name>crud-app</name>
 	<description>CRUD app with Spring Boot and ReactJS </description>
 	<properties>
-		<java.version>11</java.version>
 		<frontend-src-dir>${project.basedir}/frontend</frontend-src-dir>
 		<node.version>v14.17.5</node.version>
 		<yarn.version>v1.22.17</yarn.version>
