@@ -155,7 +155,7 @@ export default function AddOrUpdateBook({
                 }
               />
             </Grid>
-            <Grid item xs={6}>
+            <Grid item sm={6} xs={12}>
               <Typography
                 component="legend"
                 color={mode === "light" ? "black" : "white"}

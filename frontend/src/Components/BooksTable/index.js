@@ -179,11 +179,9 @@ export default function BooksTable({ books, handleRefreshOnClick, mode }) {
             >
               Add a new book
             </Button>
-            |
             <Button size="small" onClick={handleRefreshOnClick}>
               Refresh Data
             </Button>
-            |
             <Button
               size="small"
               onClick={handleUpdate}
@@ -191,7 +189,6 @@ export default function BooksTable({ books, handleRefreshOnClick, mode }) {
             >
               Update selected book
             </Button>
-            |
             <Button
               size="small"
               onClick={handleDelete}
